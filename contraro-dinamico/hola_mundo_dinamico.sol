@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity 0.8.26; //Versoin EVM
 
 contract hola_mundo_dinamico{
     string Saludo_d = "Hola Mundo Dinamico"; //
