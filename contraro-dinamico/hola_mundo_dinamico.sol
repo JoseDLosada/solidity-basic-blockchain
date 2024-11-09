@@ -14,8 +14,14 @@ contract hola_mundo_dinamico{
         Saludo_d = _nuevoSaludo;
     }// Esta funcion si consume un gas 
     // String de tipo dinamico por medio del memory por convencion de que las variables de entrada de una funcion se escribe asi _variable dice que esta va ser sobre-escrita 
+    // Publico se puede se pude ver fuera de la blockchain
+    // Private solo se puede ver en la blockcahion
+    // Funciones que on generenen canbios en la blockchain no generan gasto
+    // Cobran por el despliege y por el cambio en el mensaje
+    // Hay que saber definir cuales son las funciones estrictametne necesarioa que se van a incluir en la blockchain 
+    // Hay diferentes tipos de string para poder ingresar caracteres especiales
+    // dos transacciones deploy y la actulizacion del cambio del saludo
+    // genera un nuevo codigo de contrato 
+    // Adrress y contratos
 }
 
-// Publico se puede se pude ver fuera de la blockchain
-// Private solo se puede ver en la blockcahion
-// Funciones que on generenen canbios en la blockchain no generan gasto
